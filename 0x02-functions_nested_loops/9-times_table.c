@@ -27,3 +27,4 @@ _putchar((prod % 10) + 48); /*get the second digit*/
 }
 _putchar('\n');
 }
+}
