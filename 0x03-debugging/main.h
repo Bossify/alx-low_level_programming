@@ -1,4 +1,4 @@
-fndef MAIN_H
+#ifndef HEADER_FILE
 #define MAIN_H
 
 #include <stdio.h>
