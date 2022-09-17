@@ -23,12 +23,12 @@ void print_triangle(int size)
 					_putchar(32);
 				else
 					_putchar(35);
-				col++;	
+				col++;
 			}
 			_putchar(10);
 			col = 0;
 			row++;
-		}	
+		}
 	}
 	else
 		_putchar(10);
