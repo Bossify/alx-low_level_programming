@@ -9,7 +9,7 @@
 int _strlen(char *s)
 {
 	int len = 0;
-	while (*s != '\0')
+	while (*s!='\0')
 	{
 		len++;
 		s++;
@@ -54,7 +54,6 @@ int find_sign(char *s)
 }
 
 /**
- *
  *_atoi - convert string to int
  *@s: string to convert
  *Return: integer
