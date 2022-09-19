@@ -9,6 +9,7 @@
 int _strlen(char *s)
 {
 	int len = 0;
+	
 	while (*s!='\0')
 	{
 		len++;
@@ -26,6 +27,7 @@ int _strlen(char *s)
 int idx_num_starts(char *s)
 {
 	int i;
+
 	for (i = 0; i < _strlen(s); i++)
 	{
 		if (s[i] >= '0' && s[i] <= '9')
@@ -43,6 +45,7 @@ int idx_num_starts(char *s)
 int find_sign(char *s)
 {
 	int negatives = 0, i = 0, sign = 1;
+
 	while (i < (idx_num_starts(s)))
 	{
 		if (s[i++] == '-')
@@ -89,6 +92,6 @@ int _atoi(char *s)
 		num += (s[i] - '0') * t;
 		t /= 10;
 	}
-	return (num *sign);
+	return (num * sign);
 }
 
