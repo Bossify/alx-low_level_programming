@@ -5,7 +5,7 @@
  * @x: Integer
  * @y: Integer
  *
- * Return: Pow recursion  
+ * Return: Pow recursion
  */
 int _pow_recursion(int x, int y)
 {
