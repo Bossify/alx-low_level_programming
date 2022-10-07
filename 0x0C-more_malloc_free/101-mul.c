@@ -82,6 +82,7 @@ int get_digit(char c)
 		printf("Error\n");
 		exit(98);
 	}
+
 	return (digit);
 }
 
